@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="volley20threads">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runnerApp/libs/volley20threads.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

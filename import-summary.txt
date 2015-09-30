@@ -1,0 +1,124 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From RunnerApp:
+* .gitignore
+* proguard-project.txt
+From lib_crouton:
+* build.xml
+* ic_launcher-web.png
+* lib_crouton.iml
+* pom.xml
+* proguard-project.txt
+From lib_graphview:
+* .gitignore
+* GVBar.png
+* GVLine.jpg
+* GraphView.iml
+* README.markdown
+* build.gradle
+* gradle.properties
+* ic_launcher-web.png
+* license.txt
+* maven_push.gradle
+* proguard-project.txt
+* proguard-rules.txt
+* public\
+* public\GraphView-3.1.1.jar
+* public\GraphView-3.1.2.jar
+* public\GraphView-3.1.3.jar
+* public\GraphView-3.1.4.jar
+* public\graphview-3.1.jar
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+lib_abs =>
+    com.actionbarsherlock:actionbarsherlock:4.4.0@aar
+    com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In lib_crouton:
+* AndroidManifest.xml => lib_crouton\src\main\AndroidManifest.xml
+* assets\ => lib_crouton\src\main\assets\
+* res\ => lib_crouton\src\main\res\
+* src\ => lib_crouton\src\main\java\
+In lib_graphview:
+* AndroidManifest.xml => lib_graphview\src\main\AndroidManifest.xml
+* assets\ => lib_graphview\src\main\assets\
+* res\ => lib_graphview\src\main\res\
+* src\ => lib_graphview\src\main\java\
+In RunnerApp:
+* AndroidManifest.xml => runnerApp\src\main\AndroidManifest.xml
+* assets\ => runnerApp\src\main\assets\
+* libs\android-query-full.0.25.10.jar => runnerApp\libs\android-query-full.0.25.10.jar
+* libs\core-2.2.jar => runnerApp\libs\core-2.2.jar
+* res\ => runnerApp\src\main\res\
+* src\ => runnerApp\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

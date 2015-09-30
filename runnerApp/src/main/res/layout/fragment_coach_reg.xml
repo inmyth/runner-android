@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_coach"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:digits="0123456789"
+        android:hint="@string/input_distance"
+        android:inputType="number"
+        android:lines="1"
+        android:maxLength="4"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/ip3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:digits="0123456789"
+        android:inputType="number"
+        android:hint="@string/runner_id"
+        android:lines="1"
+        android:maxLength="3"
+        android:textColor="@android:color/white" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:prompt="@string/choose_runner" />
+
+    <TextView
+        android:id="@+id/scan"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_white"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/scan_device"
+        android:textColor="@color/grey_dk5"
+        android:textSize="17sp" />
+
+    <ProgressBar
+        android:id="@android:id/progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:id="@+id/ok"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_white"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="@android:string/ok"
+        android:textColor="@color/grey_dk5"
+        android:textSize="17sp" />
+
+</LinearLayout>
+
+
+
+
+
+
+

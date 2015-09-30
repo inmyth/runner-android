@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grey_dk5">#666</color>
+    <color name="grey_lt1">#ffc6c6c6</color>
+    <color name="grey_lt2">#f4f4f4</color>
+    <color name="grey_lt3">#ececec</color>
+    <color name="grey_lt4">#dadbdb</color>
+    <color name="grey_lt5">#ccc</color>
+    <color name="grey_dk1">#66000000</color>
+    <color name="grey_dk2">#626262</color>
+    <color name="grey_dk3">#acacac</color>
+    <color name="grey_dk4">#646160</color>
+    <color name="google_grey_dk">#828282</color>
+    <color name="google_grey_lt">#aeaeae</color>
+    <color name="grayish_yellow_lt">#E8EADF</color>
+    <color name="google_blue_dk">#ff0099cc</color>
+    <color name="google_blue_lt">#ff33b5e5</color>
+    <color name="google_green_lt">#ff99cc00</color>
+    <color name="google_green_dk">#ff669900</color>
+    <color name="google_orange_lt">#ffffbb33</color>
+    <color name="google_orange_dk">#ffff8800</color>
+    <color name="google_red_lt">#ffff4444</color>
+    <color name="google_red_dk">#ffcc0000</color>
+    <color name="google_black_lt">#1d1d1d</color>
+    <color name="blue_dk1">#0093ca</color>
+    <color name="blue_op1">#3033b5e5</color>
+    <color name="actionbar_title_color">@android:color/white</color>
+    <color name="translucent_black">#75000000</color>
+    <color name="translucent">#00000000</color>
+    <color name="yellow">#fff9b1</color>
+</resources>

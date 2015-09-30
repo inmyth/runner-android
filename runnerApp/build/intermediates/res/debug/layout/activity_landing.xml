@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#40ffffff"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingEnd="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/mode_select"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingRight="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="0dp"
+        android:paddingStart="0dp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@android:id/button1"
+                android:layout_width="240dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                layout="@layout/widget_btn_main" />
+
+            <include
+                android:id="@android:id/button2"
+                android:layout_width="240dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                layout="@layout/widget_btn_main" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:contentDescription="@string/icon_general"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_landing" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/M:/android/projects/RunnerApp/runnerApp/src/main/res/layout/activity_landing.xml -->

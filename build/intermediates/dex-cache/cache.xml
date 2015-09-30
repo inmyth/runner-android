@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Martin\.gradle\caches\modules-2\files-2.1\com.squareup\otto\1.3.5\7941cd2c2c8ec006800d75c35f8a9dacf892ab93\otto-1.3.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7941cd2c2c8ec006800d75c35f8a9dacf892ab93">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\otto-1.3.5-610ca0afc036f5478163e2ab90bd02ff5a5d368a.jar" />
+    </item>
+    <item
+        jar="M:\android\projects\RunnerApp\runnerApp\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\classes-9d33f0b94cb660499eeb5ed9cdb5eb31c56ddb56.jar" />
+    </item>
+    <item
+        jar="M:\android\projects\RunnerApp\runnerApp\build\intermediates\exploded-aar\RunnerApp\lib_graphview\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e62226618942aaf6cd93e6a8da2c24544310cb0">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\classes-8d5371848a44dafa1344844b3db48bf4c2d91103.jar" />
+    </item>
+    <item
+        jar="C:\Users\Martin\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.4\a607b0e12d2de769dc219e00b60a9b3d9e730d\rxjava-1.0.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00a607b0e12d2de769dc219e00b60a9b3d9e730d">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\rxjava-1.0.4-d2d013fd909531c6aabed55507b09a960b54690b.jar" />
+    </item>
+    <item
+        jar="M:\android\projects\RunnerApp\runnerApp\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-528581976d89ed2de39029d7aee3293f1f2b33e3.jar" />
+    </item>
+    <item
+        jar="M:\android\projects\RunnerApp\runnerApp\libs\android-query-full.0.25.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="646ad6432a4da6a827e74ce64149c719ce7e86eb">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\android-query-full.0.25.10-02dc75ea61a40aeede793e766b4aa17a3937077f.jar" />
+    </item>
+    <item
+        jar="M:\android\projects\RunnerApp\runnerApp\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0c0c19759e5868604a3b4c2c0074ee9404d73c76">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\classes-b781ce07f73b02b53e2bc5f0809e8e9c8b8da2f9.jar" />
+    </item>
+    <item
+        jar="M:\android\projects\RunnerApp\runnerApp\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.0\jars\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5a8e01742aee890c56fe638ea7c921b91a3fdc62">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-a10d332134200deb7519d5a9ff4dc53e62c518b0.jar" />
+    </item>
+    <item
+        jar="M:\android\projects\RunnerApp\runnerApp\libs\volley20threads.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7e3a32188c2ffdd331046c1ba1f33cc8cc594988">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\volley20threads-b6bf02db393687d10d4636763dca860af2c2530e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Martin\.gradle\caches\modules-2\files-2.1\org.parceler\parceler-api\0.2.15\b72c029e2ec0ef125b758f2f6bac64f6df8e7a35\parceler-api-0.2.15.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b72c029e2ec0ef125b758f2f6bac64f6df8e7a35">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\parceler-api-0.2.15-63ebdcadb81ce34cef0671e3c16d9e4271750c51.jar" />
+    </item>
+    <item
+        jar="M:\android\projects\RunnerApp\runnerApp\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7d2525cba8ed61fff102977caed964fc22061e34">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\classes-9eb9a0e9c8c4c3a309e76b860654f21e70c73d2f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Martin\.gradle\caches\modules-2\files-2.1\ch.acra\acra\4.5.0\44a5eb946e0d83eed4a0128d877ca1fd8168b83a\acra-4.5.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\acra-4.5.0-98762972dae03b9930034b428b66e834dca271fd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Martin\.gradle\caches\modules-2\files-2.1\io.reactivex\rxandroid\0.24.0\42dab493b8f74b164e082f281480c9d493ff89da\rxandroid-0.24.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="42dab493b8f74b164e082f281480c9d493ff89da">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\rxandroid-0.24.0-2bf38094c7e0c199e11527917d9d2c7ba988cca1.jar" />
+    </item>
+    <item
+        jar="M:\android\projects\RunnerApp\runnerApp\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\classes-410e7596851c9d643bfde3cbf5d89e8a97633560.jar" />
+    </item>
+    <item
+        jar="M:\android\projects\RunnerApp\runnerApp\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\classes-3ff140244c2f844b29129ca847b6790424485b93.jar" />
+    </item>
+    <item
+        jar="M:\android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-f641802f0ae86e1720f3d1d8f8199ba555b5cf28.jar" />
+    </item>
+    <item
+        jar="M:\android\projects\RunnerApp\runnerApp\build\intermediates\exploded-aar\RunnerApp\lib_crouton\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6e41b6f76e12203021432542613f754f84bb6fb6">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\classes-3e490c90dfc2a172400d4380d844662544f64686.jar" />
+    </item>
+    <item
+        jar="C:\Users\Martin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="M:\android\projects\RunnerApp\runnerApp\build\intermediates\pre-dexed\debug\gson-2.3-49aecb9348efd4e354856510420bcf58de78adcd.jar" />
+    </item>
+
+</items>

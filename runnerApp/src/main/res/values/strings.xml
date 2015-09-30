@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="app_name">PxS Run</string>
+    <string name="version_n">v.%1$s</string>
+    <string name="folder_name">PxSrun</string>
+    <string name="mode_select">使用するモードを\n選択してください</string>
+    <string name="runner">Runner</string>
+    <string name="coach">Coach</string>
+    <string name="ip_hint">ランナーのIDを入力</string>
+    <string name="server_cannot_start">サーバは開始できません</string>
+    <string name="cannot_connect_wifi">Wifiに接続できません</string>
+    <string name="sdcard_na">SDカードが利用できません</string>
+    <string name="wifi_na">Wifiが利用できません</string>
+    <string name="result">結果</string>
+    <string name="prepare_for_run">振動したらスタート</string>
+    <string name="ip_na">ID:%1$sは見つかりませんでした</string>
+    <string name="confirm">確認</string>
+    <string name="input_name">名前を入力</string>
+    <string name="input_distance">距離(m)</string>
+    <string name="allowed_distance">距離には10から9999までの数値を入力してください</string>
+    <string name="digit_only">数のみ</string>
+    <string name="necessary">必須</string>
+    <string name="name">名前</string>
+    <string name="distance">距離</string>
+    <string name="coach_confirm">内容に間違いがなければ\nOKを押してください</string>
+    <string name="bracket_id">(ID:%1$s)</string>
+    <string name="start">スタート</string>
+    <string name="stop">ストップ</string>
+    <string name="enter">入力する</string>
+    <string name="transmit_data">データを送信</string>
+    <string name="complete_session">終了</string>
+    <string name="send_with_email">発信</string>
+    <string name="running_analysis">ランニングの分析</string>
+    <string name="error_runner_session_still_up">ランナーの端末がスタンバイ状態ではありません。ランナーの端末をスタンバイ状態にしてください。</string>
+    <string name="distance_n">距離：%1$dm</string>
+    <string name="name_n">名前：%1$s</string>
+    <string name="stopwatch_zeros">0:00:00</string>
+    <string name="id_n">ID：%1$s</string>
+    <string name="cancel_prompt">キャンセル？</string>
+    <string name="cancel_message">表示中のデータを破棄してもいいですか？</string>
+    <string name="id_instruction">IDをコーチに\n伝えてください</string>
+    <string name="title_stats_start">測定開始</string>
+    <string name="title_stats_finish">測定終了</string>
+    <string name="pitch">ピッチ</string>
+    <string name="bracket_step_count">(歩数)</string>
+    <string name="Hz">Hz</string>
+    <string name="stride">ストライド</string>
+    <string name="bracket_step_width">（歩幅）</string>
+    <string name="m">m</string>
+    <string name="total_step">総ステップ数</string>
+    <string name="unit_step">歩</string>
+    <string name="time">タイム</string>
+    <string name="speed">スピード</string>
+    <string name="speed_unit">m/s</string>
+    <string name="byou">秒</string>
+    <string name="psratio">P/s比</string>
+    <string name="hzperm">Hz/m</string>
+    <string name="icon_general"></string>
+    <string name="mode_runner">ランナーモード</string>
+    <string name="mode_coach">コーチモード</string>
+    <string name="restart">再測定</string>
+    <string name="scan_device">ランナーを検索する</string>
+    <string name="error_runner_not_found">ランナーの端末は見つかりませんでした</string>
+    <string name="scanning">スキャン中</string>
+    <string name="confirm_runner">ランナーの確認</string>
+    <string name="choose_runner">ランナーを選択します</string>
+    <string name="error_need_distance_and_runner">距離またはランナーはまだ選択されていません</string>
+    <string name="enter_runner_id">ランナーIDの入力</string>
+    <string name="runner_id">ランナーID</string>
+
+    <string-array name="distance_array">
+        <item>25m</item>
+        <item>50m</item>
+        <item>100m</item>
+        <item>200m</item>
+        <item>400m</item>
+    </string-array>
+
+</resources>

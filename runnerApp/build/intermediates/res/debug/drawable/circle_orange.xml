@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <stroke
+        android:width="8dp"
+        android:color="#ffffff" />
+
+    <gradient
+        android:angle="90"
+        android:startColor="#e60012"
+        android:endColor="#f5b090"
+        android:type="linear" />
+
+    <size
+        android:height="150dp"
+        android:width="150dp" />
+
+</shape><!-- From: file:/M:/android/projects/RunnerApp/runnerApp/src/main/res/drawable/circle_orange.xml -->
